@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+ImageOriginal.h
 //  国际妈咪
 //
 //  Created by Jerry Huang on 2018/3/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface UIImage (ImageOriginal)
++(UIImage *)imageWithOriginal:(NSString *)imageName;
 @end
-
