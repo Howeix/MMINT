@@ -50,7 +50,8 @@
     MMNavigationController *nav1 = [[MMNavigationController alloc] initWithRootViewController:homePageVC];
     [self addChildViewController:nav1];
 
-    MMFindGoodsViewController *findGoodsVC = [[MMFindGoodsViewController alloc] init];
+    //发现商品控制器通过Storyboard
+    MMFindGoodsViewController *findGoodsVC = [[UIStoryboard storyboardWithName:NSStringFromClass([MMFindGoodsViewController class]) bundle:nil] instantiateInitialViewController];
     MMNavigationController *nav2 = [[MMNavigationController alloc] initWithRootViewController:findGoodsVC];
     [self addChildViewController:nav2];
     
@@ -71,8 +72,7 @@
     
     MMNavigationController *nav = self.childViewControllers[0];
     nav.tabBarItem.title = @"首页";
-//    nav.tabBarItem.image = [UIImage imageNamed:nil];
-//    nav.tabBarItem.selectedImage = [UIImage imageNamed:nil];
+
     
     MMNavigationController *nav1 = self.childViewControllers[1];
     nav1.tabBarItem.title = @"发现商品";

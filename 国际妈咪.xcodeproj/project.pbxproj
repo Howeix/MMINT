@@ -22,6 +22,14 @@
 		027ABF9E20641F890096A9B6 /* MMMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027ABF9D20641F890096A9B6 /* MMMeTableViewController.m */; };
 		027ABFA120641FE10096A9B6 /* MMShoppingBagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027ABFA020641FE10096A9B6 /* MMShoppingBagTableViewController.m */; };
 		02BC79F3206428F0008706E6 /* UIImage+ImageOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC79F2206428F0008706E6 /* UIImage+ImageOriginal.m */; };
+		0E4FA9A82064A384001E5A5E /* UIView+NHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA9A72064A384001E5A5E /* UIView+NHFrame.m */; };
+		0E4FA9AC2064A3A0001E5A5E /* NHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA9AA2064A3A0001E5A5E /* NHTools.m */; };
+		0E4FA9B32064AD68001E5A5E /* MMHomePageScrollViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA9B22064AD68001E5A5E /* MMHomePageScrollViewButton.m */; };
+		0E4FA9B52064AD7B001E5A5E /* MMHomePageScrollViewButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E4FA9B42064AD7B001E5A5E /* MMHomePageScrollViewButton.xib */; };
+		0E4FA9B82064B096001E5A5E /* MMHomePageScrollViewCategoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA9B72064B096001E5A5E /* MMHomePageScrollViewCategoryButton.m */; };
+		0E84BE6C2064D84400B8D1B6 /* MMFindGoodsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E84BE6B2064D84400B8D1B6 /* MMFindGoodsViewController.storyboard */; };
+		0E84BE742064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E84BE732064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.m */; };
+		0E84BE762064DF3D00B8D1B6 /* MMFindGoodsScrollViewButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E84BE752064DF3D00B8D1B6 /* MMFindGoodsScrollViewButtonView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +80,20 @@
 		027ABFA020641FE10096A9B6 /* MMShoppingBagTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMShoppingBagTableViewController.m; sourceTree = "<group>"; };
 		02BC79F1206428F0008706E6 /* UIImage+ImageOriginal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageOriginal.h"; sourceTree = "<group>"; };
 		02BC79F2206428F0008706E6 /* UIImage+ImageOriginal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageOriginal.m"; sourceTree = "<group>"; };
+		0E4FA9A520649EBB001E5A5E /* MMPCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPCH.h; sourceTree = "<group>"; };
+		0E4FA9A62064A384001E5A5E /* UIView+NHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NHFrame.h"; sourceTree = "<group>"; };
+		0E4FA9A72064A384001E5A5E /* UIView+NHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NHFrame.m"; sourceTree = "<group>"; };
+		0E4FA9AA2064A3A0001E5A5E /* NHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHTools.m; sourceTree = "<group>"; };
+		0E4FA9AB2064A3A0001E5A5E /* NHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHTools.h; sourceTree = "<group>"; };
+		0E4FA9B12064AD68001E5A5E /* MMHomePageScrollViewButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMHomePageScrollViewButton.h; sourceTree = "<group>"; };
+		0E4FA9B22064AD68001E5A5E /* MMHomePageScrollViewButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMHomePageScrollViewButton.m; sourceTree = "<group>"; };
+		0E4FA9B42064AD7B001E5A5E /* MMHomePageScrollViewButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMHomePageScrollViewButton.xib; sourceTree = "<group>"; };
+		0E4FA9B62064B096001E5A5E /* MMHomePageScrollViewCategoryButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMHomePageScrollViewCategoryButton.h; sourceTree = "<group>"; };
+		0E4FA9B72064B096001E5A5E /* MMHomePageScrollViewCategoryButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMHomePageScrollViewCategoryButton.m; sourceTree = "<group>"; };
+		0E84BE6B2064D84400B8D1B6 /* MMFindGoodsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MMFindGoodsViewController.storyboard; sourceTree = "<group>"; };
+		0E84BE722064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFindGoodsScrollViewButtonView.h; sourceTree = "<group>"; };
+		0E84BE732064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFindGoodsScrollViewButtonView.m; sourceTree = "<group>"; };
+		0E84BE752064DF3D00B8D1B6 /* MMFindGoodsScrollViewButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMFindGoodsScrollViewButtonView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +172,7 @@
 		02052F81206418A000F307FA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				0E4FA9A92064A3A0001E5A5E /* NHTools */,
 				02BC79F0206428BE008706E6 /* Category */,
 				02052F4F2064188600F307FA /* AppDelegate.h */,
 				02052F502064188600F307FA /* AppDelegate.m */,
@@ -279,8 +302,8 @@
 			isa = PBXGroup;
 			children = (
 				027ABF8220641C460096A9B6 /* Controller */,
-				027ABF8320641C460096A9B6 /* Model */,
-				027ABF8420641C460096A9B6 /* View */,
+				0E84BE692064D75200B8D1B6 /* Model */,
+				0E84BE6A2064D75300B8D1B6 /* View */,
 			);
 			path = MMFindGoods;
 			sourceTree = "<group>";
@@ -290,22 +313,9 @@
 			children = (
 				027ABF9920641F670096A9B6 /* MMFindGoodsViewController.h */,
 				027ABF9A20641F670096A9B6 /* MMFindGoodsViewController.m */,
+				0E84BE6B2064D84400B8D1B6 /* MMFindGoodsViewController.storyboard */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		027ABF8320641C460096A9B6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		027ABF8420641C460096A9B6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		027ABF8520641C460096A9B6 /* MMMe */ = {
@@ -344,9 +354,9 @@
 		027ABF8920641C460096A9B6 /* MMHomePage */ = {
 			isa = PBXGroup;
 			children = (
+				0E4FA9AF2064ACA7001E5A5E /* Model */,
+				0E4FA9B02064ACA7001E5A5E /* View */,
 				027ABF8A20641C460096A9B6 /* Controller */,
-				027ABF8B20641C460096A9B6 /* Model */,
-				027ABF8C20641C460096A9B6 /* View */,
 			);
 			path = MMHomePage;
 			sourceTree = "<group>";
@@ -360,27 +370,61 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		027ABF8B20641C460096A9B6 /* Model */ = {
+		02BC79F0206428BE008706E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0E4FA9A62064A384001E5A5E /* UIView+NHFrame.h */,
+				0E4FA9A72064A384001E5A5E /* UIView+NHFrame.m */,
+				02BC79F1206428F0008706E6 /* UIImage+ImageOriginal.h */,
+				02BC79F2206428F0008706E6 /* UIImage+ImageOriginal.m */,
+				0E4FA9A520649EBB001E5A5E /* MMPCH.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0E4FA9A92064A3A0001E5A5E /* NHTools */ = {
+			isa = PBXGroup;
+			children = (
+				0E4FA9AA2064A3A0001E5A5E /* NHTools.m */,
+				0E4FA9AB2064A3A0001E5A5E /* NHTools.h */,
+			);
+			path = NHTools;
+			sourceTree = "<group>";
+		};
+		0E4FA9AF2064ACA7001E5A5E /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		027ABF8C20641C460096A9B6 /* View */ = {
+		0E4FA9B02064ACA7001E5A5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0E4FA9B12064AD68001E5A5E /* MMHomePageScrollViewButton.h */,
+				0E4FA9B22064AD68001E5A5E /* MMHomePageScrollViewButton.m */,
+				0E4FA9B42064AD7B001E5A5E /* MMHomePageScrollViewButton.xib */,
+				0E4FA9B62064B096001E5A5E /* MMHomePageScrollViewCategoryButton.h */,
+				0E4FA9B72064B096001E5A5E /* MMHomePageScrollViewCategoryButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		02BC79F0206428BE008706E6 /* Category */ = {
+		0E84BE692064D75200B8D1B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				02BC79F1206428F0008706E6 /* UIImage+ImageOriginal.h */,
-				02BC79F2206428F0008706E6 /* UIImage+ImageOriginal.m */,
 			);
-			path = Category;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E84BE6A2064D75300B8D1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E84BE722064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.h */,
+				0E84BE732064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.m */,
+				0E84BE752064DF3D00B8D1B6 /* MMFindGoodsScrollViewButtonView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +489,7 @@
 		02052F442064188600F307FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MM;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Jerry Huang";
 				TargetAttributes = {
@@ -489,9 +534,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E84BE762064DF3D00B8D1B6 /* MMFindGoodsScrollViewButtonView.xib in Resources */,
 				02052F5C2064188600F307FA /* LaunchScreen.storyboard in Resources */,
+				0E4FA9B52064AD7B001E5A5E /* MMHomePageScrollViewButton.xib in Resources */,
 				02052F592064188600F307FA /* Assets.xcassets in Resources */,
 				02052F572064188600F307FA /* Main.storyboard in Resources */,
+				0E84BE6C2064D84400B8D1B6 /* MMFindGoodsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,16 +564,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4FA9B32064AD68001E5A5E /* MMHomePageScrollViewButton.m in Sources */,
 				027ABF9820641F380096A9B6 /* MMMamCircleTableViewController.m in Sources */,
 				027ABF8F20641C650096A9B6 /* MMNavigationController.m in Sources */,
 				027ABF9220641C770096A9B6 /* MMTabBarController.m in Sources */,
 				027ABFA120641FE10096A9B6 /* MMShoppingBagTableViewController.m in Sources */,
+				0E4FA9A82064A384001E5A5E /* UIView+NHFrame.m in Sources */,
+				0E84BE742064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.m in Sources */,
 				02052F5F2064188600F307FA /* main.m in Sources */,
 				027ABF9B20641F670096A9B6 /* MMFindGoodsViewController.m in Sources */,
 				02052F512064188600F307FA /* AppDelegate.m in Sources */,
 				027ABF9520641EF60096A9B6 /* MMHomePageTableViewController.m in Sources */,
 				02BC79F3206428F0008706E6 /* UIImage+ImageOriginal.m in Sources */,
 				027ABF9E20641F890096A9B6 /* MMMeTableViewController.m in Sources */,
+				0E4FA9AC2064A3A0001E5A5E /* NHTools.m in Sources */,
+				0E4FA9B82064B096001E5A5E /* MMHomePageScrollViewCategoryButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +743,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
-				INFOPLIST_FILE = "/Users/jerryhuang/Desktop/iOS高级课程代码/国际妈咪/国际妈咪/Other/Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "国际妈咪/Other/Category/MMPCH.h";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -704,7 +759,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
-				INFOPLIST_FILE = "/Users/jerryhuang/Desktop/iOS高级课程代码/国际妈咪/国际妈咪/Other/Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "国际妈咪/Other/Category/MMPCH.h";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -718,7 +775,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
-				INFOPLIST_FILE = "/Users/jerryhuang/Desktop/iOS高级课程代码/国际妈咪/国际妈咪/Other/Info.plist";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -733,7 +790,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
-				INFOPLIST_FILE = "/Users/jerryhuang/Desktop/iOS高级课程代码/国际妈咪/国际妈咪/Other/Info.plist";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

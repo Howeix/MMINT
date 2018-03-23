@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MMHomePageTableViewController : UITableViewController
-
+//** items */
+@property (strong, nonatomic) NSArray *titleViewItems;
 @end
