@@ -10,6 +10,11 @@
 
 @implementation MMFindGoodsScrollViewButtonView
 
+-(void)awakeFromNib{
+    [super awakeFromNib];
+    self.chineseLabel.textColor = [UIColor darkGrayColor];
+    self.englishLabel.textColor = [UIColor darkGrayColor];
+}
 
 //-(void)drawRect:(CGRect)rect{
 //    CGContextRef ctx = UIGraphicsGetCurrentContext();

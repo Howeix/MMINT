@@ -60,9 +60,7 @@
         MMFindGoodsScrollViewButtonView *btn = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([MMFindGoodsScrollViewButtonView class]) owner:nil options:nil][0];
         btn.frame = CGRectMake(btnX, btnY, btnWidth, btnHeight);
         btn.chineseLabel.text = buttonText.allKeys[0];
-        btn.chineseLabel.textColor = [UIColor darkGrayColor];
         btn.englishLabel.text = buttonText.allValues[0];
-        btn.englishLabel.textColor = [UIColor darkGrayColor];
         btn.backgroundColor = self.findGoodsScrollView.backgroundColor;
 #warning 必须设置这里不然无法设置从xib加载出来view的frame.size
         btn.autoresizingMask = UIViewAutoresizingNone;

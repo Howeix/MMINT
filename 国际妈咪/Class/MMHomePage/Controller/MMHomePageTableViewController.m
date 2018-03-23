@@ -38,9 +38,22 @@
     
     
     [self setupTitleView];
+    
+    [self setupHeaderBannerView];
+    
 
     
     self.view.backgroundColor = [UIColor grayColor];
+    
+}
+
+-(void)setupHeaderBannerView{
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, -200, MMScreenW, 200)];
+    scrollView.backgroundColor = [UIColor redColor];
+    
+    
+    
+    [self.view addSubview:scrollView];
     
 }
 
