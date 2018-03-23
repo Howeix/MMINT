@@ -29,12 +29,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.findGoodsScrollView.contentSize = CGSizeMake(self.findGoodsScrollView.frame.size.width, 800);
+    self.findGoodsScrollView.contentSize = CGSizeMake(self.findGoodsScrollView.frame.size.width, 600);
     self.findGoodsScrollView.showsVerticalScrollIndicator = NO;
     self.findGoodsScrollView.showsHorizontalScrollIndicator = NO;
     
     [self setupFindGoodsScrollViewButton];
+    [self setupNavBar];
 //    NSLog(@"%zd",self.buttonTexts.count);
+}
+
+-(void)setupNavBar{
+    self.navigationItem.titleView = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 20, MMScreenW - 40, 40)];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeInfoDark];
+    btn.frame = CGRectMake(0, 0, 40, 40);
+    self.navigationController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    
 }
 
 -(void)setupFindGoodsScrollViewButton{
@@ -42,7 +51,7 @@
     CGFloat btnX = 0;
     
     CGFloat btnWidth = self.findGoodsScrollView.frame.size.width;
-    CGFloat btnHeight = 14;
+    CGFloat btnHeight = 60;
     
     NSInteger i = 0;
     for (NSDictionary *buttonText in self.buttonTexts) {
@@ -51,11 +60,15 @@
         MMFindGoodsScrollViewButtonView *btn = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([MMFindGoodsScrollViewButtonView class]) owner:nil options:nil][0];
         btn.frame = CGRectMake(btnX, btnY, btnWidth, btnHeight);
         btn.chineseLabel.text = buttonText.allKeys[0];
-        btn.chineseLabel.textColor = [UIColor blueColor];
+        btn.chineseLabel.textColor = [UIColor darkGrayColor];
         btn.englishLabel.text = buttonText.allValues[0];
-        btn.englishLabel.textColor = [UIColor blueColor];
+        btn.englishLabel.textColor = [UIColor darkGrayColor];
+        btn.backgroundColor = self.findGoodsScrollView.backgroundColor;
+#warning 必须设置这里不然无法设置从xib加载出来view的frame.size
+        btn.autoresizingMask = UIViewAutoresizingNone;
+        btn.userInteractionEnabled = YES;
         [self.findGoodsScrollView addSubview:btn];
-        
+        NSLog(@"%@",NSStringFromCGRect(btn.frame));
         i++;
     }
     

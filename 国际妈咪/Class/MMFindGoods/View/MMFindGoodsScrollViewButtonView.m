@@ -11,12 +11,12 @@
 @implementation MMFindGoodsScrollViewButtonView
 
 
--(void)drawRect:(CGRect)rect{
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    UIBezierPath *path = [UIBezierPath bezierPathWithRect:rect];
-    CGContextAddPath(ctx, path.CGPath);
-    CGContextStrokePath(ctx);
-}
+//-(void)drawRect:(CGRect)rect{
+//    CGContextRef ctx = UIGraphicsGetCurrentContext();
+//    UIBezierPath *path = [UIBezierPath bezierPathWithRect:rect];
+//    CGContextAddPath(ctx, path.CGPath);
+//    CGContextStrokePath(ctx);
+//}
 
 
 
