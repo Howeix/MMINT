@@ -26,6 +26,10 @@
 		02AE54C8206600A000028454 /* MMGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AE54C7206600A000028454 /* MMGoodsView.m */; };
 		02AE54CA206603F900028454 /* MMGoodsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02AE54C9206603F900028454 /* MMGoodsView.xib */; };
 		02BC79F3206428F0008706E6 /* UIImage+ImageOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC79F2206428F0008706E6 /* UIImage+ImageOriginal.m */; };
+		02CF709D2066B12900AE2C0A /* MMOtherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF709C2066B12900AE2C0A /* MMOtherTableViewController.m */; };
+		02CF70A02066B13500AE2C0A /* MMShareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF709F2066B13500AE2C0A /* MMShareTableViewController.m */; };
+		02CF70A32066B13F00AE2C0A /* MMFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF70A22066B13F00AE2C0A /* MMFoodTableViewController.m */; };
+		02CF70A62066B15100AE2C0A /* MMBabySuppliesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF70A52066B15100AE2C0A /* MMBabySuppliesTableViewController.m */; };
 		0E4FA9A82064A384001E5A5E /* UIView+NHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA9A72064A384001E5A5E /* UIView+NHFrame.m */; };
 		0E4FA9AC2064A3A0001E5A5E /* NHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA9AA2064A3A0001E5A5E /* NHTools.m */; };
 		0E4FA9B32064AD68001E5A5E /* MMHomePageScrollViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA9B22064AD68001E5A5E /* MMHomePageScrollViewButton.m */; };
@@ -91,6 +95,14 @@
 		02AE54C9206603F900028454 /* MMGoodsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMGoodsView.xib; sourceTree = "<group>"; };
 		02BC79F1206428F0008706E6 /* UIImage+ImageOriginal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageOriginal.h"; sourceTree = "<group>"; };
 		02BC79F2206428F0008706E6 /* UIImage+ImageOriginal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageOriginal.m"; sourceTree = "<group>"; };
+		02CF709B2066B12900AE2C0A /* MMOtherTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMOtherTableViewController.h; sourceTree = "<group>"; };
+		02CF709C2066B12900AE2C0A /* MMOtherTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMOtherTableViewController.m; sourceTree = "<group>"; };
+		02CF709E2066B13500AE2C0A /* MMShareTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMShareTableViewController.h; sourceTree = "<group>"; };
+		02CF709F2066B13500AE2C0A /* MMShareTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMShareTableViewController.m; sourceTree = "<group>"; };
+		02CF70A12066B13F00AE2C0A /* MMFoodTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFoodTableViewController.h; sourceTree = "<group>"; };
+		02CF70A22066B13F00AE2C0A /* MMFoodTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFoodTableViewController.m; sourceTree = "<group>"; };
+		02CF70A42066B15100AE2C0A /* MMBabySuppliesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMBabySuppliesTableViewController.h; sourceTree = "<group>"; };
+		02CF70A52066B15100AE2C0A /* MMBabySuppliesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBabySuppliesTableViewController.m; sourceTree = "<group>"; };
 		0E4FA9A520649EBB001E5A5E /* MMPCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPCH.h; sourceTree = "<group>"; };
 		0E4FA9A62064A384001E5A5E /* UIView+NHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NHFrame.h"; sourceTree = "<group>"; };
 		0E4FA9A72064A384001E5A5E /* UIView+NHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NHFrame.m"; sourceTree = "<group>"; };
@@ -199,6 +211,8 @@
 		0256AFB72066AA0C00BDD7E5 /* BabySupplies */ = {
 			isa = PBXGroup;
 			children = (
+				02CF70A42066B15100AE2C0A /* MMBabySuppliesTableViewController.h */,
+				02CF70A52066B15100AE2C0A /* MMBabySuppliesTableViewController.m */,
 			);
 			path = BabySupplies;
 			sourceTree = "<group>";
@@ -206,6 +220,8 @@
 		0256AFB82066AA0D00BDD7E5 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				02CF709B2066B12900AE2C0A /* MMOtherTableViewController.h */,
+				02CF709C2066B12900AE2C0A /* MMOtherTableViewController.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -213,6 +229,8 @@
 		0256AFB92066AA0D00BDD7E5 /* Share */ = {
 			isa = PBXGroup;
 			children = (
+				02CF709E2066B13500AE2C0A /* MMShareTableViewController.h */,
+				02CF709F2066B13500AE2C0A /* MMShareTableViewController.m */,
 			);
 			path = Share;
 			sourceTree = "<group>";
@@ -220,6 +238,8 @@
 		0256AFBA2066AA0D00BDD7E5 /* Food */ = {
 			isa = PBXGroup;
 			children = (
+				02CF70A12066B13F00AE2C0A /* MMFoodTableViewController.h */,
+				02CF70A22066B13F00AE2C0A /* MMFoodTableViewController.m */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -645,8 +665,10 @@
 				027ABF8F20641C650096A9B6 /* MMNavigationController.m in Sources */,
 				027ABF9220641C770096A9B6 /* MMTabBarController.m in Sources */,
 				027ABFA120641FE10096A9B6 /* MMShoppingBagTableViewController.m in Sources */,
+				02CF70A62066B15100AE2C0A /* MMBabySuppliesTableViewController.m in Sources */,
 				02AE54C32065FE3B00028454 /* MMFindGoodsScrollViewButton.m in Sources */,
 				0E4FA9A82064A384001E5A5E /* UIView+NHFrame.m in Sources */,
+				02CF709D2066B12900AE2C0A /* MMOtherTableViewController.m in Sources */,
 				0E84BE742064DF3200B8D1B6 /* MMFindGoodsScrollViewButtonView.m in Sources */,
 				02052F5F2064188600F307FA /* main.m in Sources */,
 				027ABF9B20641F670096A9B6 /* MMFindGoodsViewController.m in Sources */,
@@ -657,6 +679,8 @@
 				0256AFBE2066AA7000BDD7E5 /* MMMilkPowderTableViewController.m in Sources */,
 				0E4FA9AC2064A3A0001E5A5E /* NHTools.m in Sources */,
 				0E4FA9B82064B096001E5A5E /* MMHomePageScrollViewCategoryButton.m in Sources */,
+				02CF70A02066B13500AE2C0A /* MMShareTableViewController.m in Sources */,
+				02CF70A32066B13F00AE2C0A /* MMFoodTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

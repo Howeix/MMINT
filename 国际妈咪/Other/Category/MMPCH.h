@@ -11,5 +11,8 @@
 
 #define MMScreenW [UIScreen mainScreen].bounds.size.width
 #define MMScreenH [UIScreen mainScreen].bounds.size.height
-#define MMRandomColor [UIColor colorWithRed:arc4random_uniform(255) /255 green:arc4random_uniform(255) /255 blue:arc4random_uniform(255) /255 alpha:1];
+//设置自定义颜色
+#define HWColor(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+//随机颜色
+#define HWRandomColor HWColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 #endif /* MMPCH_h */
