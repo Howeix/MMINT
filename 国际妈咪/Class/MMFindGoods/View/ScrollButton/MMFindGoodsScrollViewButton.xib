@@ -55,5 +55,10 @@
             </connections>
             <point key="canvasLocation" x="-8" y="280"/>
         </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rTG-GL-i7n" customClass="MMFindGoodsScrollViewButton">
+            <rect key="frame" x="0.0" y="0.0" width="176" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="-23" y="-17"/>
+        </button>
     </objects>
 </document>

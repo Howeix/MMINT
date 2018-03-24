@@ -7,13 +7,15 @@
 //
 
 #import "MMFindGoodsViewController.h"
-#import "MMFindGoodsScrollViewButtonView.h"
+#import "MMFindGoodsScrollViewButton.h"
+#import "UIView+NHFrame.h"
+#import "MMGoodsView.h"
 
 @interface MMFindGoodsViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *findGoodsScrollView;
 //** 按钮文字  用字典 */
 @property (strong, nonatomic) NSArray *buttonTexts;
-
+@property(strong,nonatomic)NSArray *goodsViews;
 
 @end
 
@@ -26,6 +28,13 @@
     return _buttonTexts;
 }
 
+-(NSArray *)goodsViews{
+    if (!_goodsViews) {
+        _goodsViews = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([MMGoodsView class]) owner:nil options:nil];
+    }
+    return _goodsViews;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -36,6 +45,8 @@
     [self setupFindGoodsScrollViewButton];
     [self setupNavBar];
 //    NSLog(@"%zd",self.buttonTexts.count);
+    
+    
 }
 
 -(void)setupNavBar{
@@ -57,19 +68,49 @@
     for (NSDictionary *buttonText in self.buttonTexts) {
         CGFloat btnY = i * btnHeight;
         
-        MMFindGoodsScrollViewButtonView *btn = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([MMFindGoodsScrollViewButtonView class]) owner:nil options:nil][0];
+        MMFindGoodsScrollViewButton *btn = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([MMFindGoodsScrollViewButton class]) owner:nil options:nil][1];
+        NSLog(@"%@",btn.class);
         btn.frame = CGRectMake(btnX, btnY, btnWidth, btnHeight);
-        btn.chineseLabel.text = buttonText.allKeys[0];
-        btn.englishLabel.text = buttonText.allValues[0];
-        btn.backgroundColor = self.findGoodsScrollView.backgroundColor;
-#warning 必须设置这里不然无法设置从xib加载出来view的frame.size
-        btn.autoresizingMask = UIViewAutoresizingNone;
-        btn.userInteractionEnabled = YES;
+        UILabel *cnLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 12, 100, 21)];
+        cnLabel.text = buttonText.allKeys[0];
+        cnLabel.font = [UIFont systemFontOfSize:15];
+        cnLabel.textColor = [UIColor darkGrayColor];
+        cnLabel.textAlignment = NSTextAlignmentCenter;
+        
+        UILabel *enLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 35, 100, 21)];
+        enLabel.text = buttonText.allValues[0];
+        enLabel.textAlignment = NSTextAlignmentCenter;
+        enLabel.font = [UIFont systemFontOfSize:12];
+        enLabel.textColor = [UIColor darkGrayColor];
+        
+        [btn addSubview:cnLabel];
+        [btn addSubview:enLabel];
+        
+        [btn addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
+        
+        btn.tag = i;
+        
+//        btn.chineseLabel.text = buttonText.allKeys[0];
+//        btn.englishLabel.text = buttonText.allValues[0];
+//        btn.backgroundColor = self.findGoodsScrollView.backgroundColor;
+//#warning 必须设置这里不然无法设置从xib加载出来view的frame.size
+//        btn.autoresizingMask = UIViewAutoresizingNone;
+//        btn.userInteractionEnabled = YES;
         [self.findGoodsScrollView addSubview:btn];
-        NSLog(@"%@",NSStringFromCGRect(btn.frame));
         i++;
     }
     
+    
+}
+
+
+
+
+-(void)clickBtn:(MMFindGoodsScrollViewButton *)btn{
+    MMGoodsView *v = self.goodsViews[btn.tag];
+    
+    
+    [self.view insertSubview:v belowSubview:self.findGoodsScrollView];
     
 }
 

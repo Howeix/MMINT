@@ -11,5 +11,5 @@
 
 #define MMScreenW [UIScreen mainScreen].bounds.size.width
 #define MMScreenH [UIScreen mainScreen].bounds.size.height
-
+#define MMRandomColor [UIColor colorWithRed:arc4random_uniform(255) /255 green:arc4random_uniform(255) /255 blue:arc4random_uniform(255) /255 alpha:1];
 #endif /* MMPCH_h */
