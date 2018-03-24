@@ -14,6 +14,7 @@
 		02052F5F2064188600F307FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02052F5E2064188600F307FA /* main.m */; };
 		02052F692064188600F307FA /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02052F682064188600F307FA /* ____Tests.m */; };
 		02052F742064188600F307FA /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02052F732064188600F307FA /* ____UITests.m */; };
+		0256AFBE2066AA7000BDD7E5 /* MMMilkPowderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0256AFBD2066AA7000BDD7E5 /* MMMilkPowderTableViewController.m */; };
 		027ABF8F20641C650096A9B6 /* MMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027ABF8E20641C650096A9B6 /* MMNavigationController.m */; };
 		027ABF9220641C770096A9B6 /* MMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027ABF9120641C770096A9B6 /* MMTabBarController.m */; };
 		027ABF9520641EF60096A9B6 /* MMHomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027ABF9420641EF60096A9B6 /* MMHomePageTableViewController.m */; };
@@ -67,6 +68,8 @@
 		02052F6F2064188600F307FA /* 国际妈咪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "国际妈咪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02052F732064188600F307FA /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		02052F752064188600F307FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0256AFBC2066AA7000BDD7E5 /* MMMilkPowderTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMilkPowderTableViewController.h; sourceTree = "<group>"; };
+		0256AFBD2066AA7000BDD7E5 /* MMMilkPowderTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMMilkPowderTableViewController.m; sourceTree = "<group>"; };
 		027ABF8D20641C650096A9B6 /* MMNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMNavigationController.h; sourceTree = "<group>"; };
 		027ABF8E20641C650096A9B6 /* MMNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNavigationController.m; sourceTree = "<group>"; };
 		027ABF9020641C770096A9B6 /* MMTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTabBarController.h; sourceTree = "<group>"; };
@@ -193,6 +196,43 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		0256AFB72066AA0C00BDD7E5 /* BabySupplies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BabySupplies;
+			sourceTree = "<group>";
+		};
+		0256AFB82066AA0D00BDD7E5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0256AFB92066AA0D00BDD7E5 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		0256AFBA2066AA0D00BDD7E5 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		0256AFBB2066AA0D00BDD7E5 /* MilkPowder */ = {
+			isa = PBXGroup;
+			children = (
+				0256AFBC2066AA7000BDD7E5 /* MMMilkPowderTableViewController.h */,
+				0256AFBD2066AA7000BDD7E5 /* MMMilkPowderTableViewController.m */,
+			);
+			path = MilkPowder;
+			sourceTree = "<group>";
+		};
 		027ABF7420641C460096A9B6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +328,11 @@
 			children = (
 				027ABF9620641F380096A9B6 /* MMMamCircleTableViewController.h */,
 				027ABF9720641F380096A9B6 /* MMMamCircleTableViewController.m */,
+				0256AFB72066AA0C00BDD7E5 /* BabySupplies */,
+				0256AFBA2066AA0D00BDD7E5 /* Food */,
+				0256AFBB2066AA0D00BDD7E5 /* MilkPowder */,
+				0256AFB82066AA0D00BDD7E5 /* Other */,
+				0256AFB92066AA0D00BDD7E5 /* Share */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -609,6 +654,7 @@
 				027ABF9520641EF60096A9B6 /* MMHomePageTableViewController.m in Sources */,
 				02BC79F3206428F0008706E6 /* UIImage+ImageOriginal.m in Sources */,
 				027ABF9E20641F890096A9B6 /* MMMeTableViewController.m in Sources */,
+				0256AFBE2066AA7000BDD7E5 /* MMMilkPowderTableViewController.m in Sources */,
 				0E4FA9AC2064A3A0001E5A5E /* NHTools.m in Sources */,
 				0E4FA9B82064B096001E5A5E /* MMHomePageScrollViewCategoryButton.m in Sources */,
 			);
