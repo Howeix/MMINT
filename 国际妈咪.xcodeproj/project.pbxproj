@@ -847,7 +847,7 @@
 				DEVELOPMENT_TEAM = SA5WY6LT22;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "国际妈咪/Other/Category/MMPCH.h";
-				INFOPLIST_FILE = "/Users/jerryhuang/Documents/MMINT/国际妈咪/Other/Info.plist";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -863,7 +863,7 @@
 				DEVELOPMENT_TEAM = SA5WY6LT22;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "国际妈咪/Other/Category/MMPCH.h";
-				INFOPLIST_FILE = "/Users/jerryhuang/Documents/MMINT/国际妈咪/Other/Info.plist";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -877,7 +877,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
-				INFOPLIST_FILE = "/Users/jerryhuang/Documents/MMINT/国际妈咪/Other/Info.plist";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -892,7 +892,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
-				INFOPLIST_FILE = "/Users/jerryhuang/Documents/MMINT/国际妈咪/Other/Info.plist";
+				INFOPLIST_FILE = "/Users/huangwei/Documents/MMINT/国际妈咪/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Howeix.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

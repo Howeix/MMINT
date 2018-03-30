@@ -99,8 +99,6 @@
         [self.findGoodsScrollView addSubview:btn];
         i++;
     }
-    
-    
 }
 
 

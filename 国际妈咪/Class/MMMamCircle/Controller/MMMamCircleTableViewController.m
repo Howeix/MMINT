@@ -20,6 +20,8 @@
 @property(weak,nonatomic)UIButton *previouslyButton;
 @property(weak,nonatomic)UIView *underLine;
 @property(weak,nonatomic)UIScrollView *titleScrollView;
+//** contentScrollView */
+@property (weak, nonatomic) UIScrollView *contentScrollView;
 @end
 
 @implementation MMMamCircleTableViewController
@@ -76,6 +78,7 @@ static NSString * const ID = @"MamCircleCell";
     scrollView.backgroundColor = [UIColor greenColor];
     scrollView.contentSize = CGSizeMake(MMScreenW * self.titleViewTexts.count, 0);
     scrollView.pagingEnabled = YES;
+    self.contentScrollView = scrollView;
     
     NSInteger i = 0;
     for (UIViewController *vc in self.childViewControllers) {
@@ -135,14 +138,17 @@ static NSString * const ID = @"MamCircleCell";
     self.previouslyButton.selected = NO;
     btn.selected = YES;
     self.previouslyButton = btn;
-    
+    //scrollView的x值
     CGFloat scrollViewX = btn.tag * MMScreenW;
     
     [UIView animateWithDuration:0.3 animations:^{
+        
+        //设置下划线的宽度
         self.underLine.NH_width = [btn.currentTitle sizeWithAttributes:@{NSFontAttributeName : btn.titleLabel.font}].width + 10;
+        //设置下划线的位置
         [btn.currentTitle sizeWithAttributes:@{NSFontAttributeName : btn.titleLabel.font}];
         _underLine.NH_centerX = btn.NH_centerX;
-        self.titleScrollView.contentOffset = CGPointMake(scrollViewX, self.titleScrollView.contentOffset.y);
+        self.contentScrollView.contentOffset = CGPointMake(scrollViewX, self.contentScrollView.contentOffset.y);
         
     }completion:^(BOOL finished) {
         [self addViewIntoScrollView:btn.tag];
